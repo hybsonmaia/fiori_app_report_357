@@ -137,6 +137,10 @@ sap.ui.define([
                     ProductId: oProductId
                 });
 
+            },
+
+            onFuncaoGit: function() {
+                
             }
 
         });
