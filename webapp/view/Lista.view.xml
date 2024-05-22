@@ -95,8 +95,8 @@
                                                 <Text xmlns="sap.m" text="{SupplierId}" id="text20"/>
                                                 <Text xmlns="sap.m" text="{MeasureUnit}" id="text21"/>
                                                 <ObjectNumber xmlns="sap.m" number="{ parts:[ {path:'Price'}, {path:'CurrencyCode'} ], type: 'sap.ui.model.type.Currency', formatOptions:{showMeasure: false} }" unit="{CurrencyCode}" id="number0" state="Success"/>
-                                                <ObjectStatus xmlns="sap.m" text="{ path: 'Status', formatter:'.statusProduto' }" state="{ path: 'Status', formatter: '.stateProduto' }" id="status0" icon="{ path: 'Status', formatter: '.iconProduto' }"/>
-                                                <Text xmlns="sap.m" text="{ path: 'CreateDat', formatter:'.date' }" id="text23"/>
+                                                <ObjectStatus xmlns="sap.m" text="{ path: 'Status', formatter:'.objFormatter.statusProduto' }" state="{ path: 'Status', formatter: '.objFormatter.stateProduto' }" id="status0" icon="{ path: 'Status', formatter: '.objFormatter.iconProduto' }"/>
+                                                <Text xmlns="sap.m" text="{ path: 'CreateDat', formatter:'.objFormatter.date' }" id="text23"/>
                                             </m:cells>
                                         </m:ColumnListItem>
                                     </m:items>
